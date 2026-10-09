@@ -12,7 +12,7 @@ Prerequisites:
 
 ## Examples
 
-### Ansible
+#### Ansible
 
 For our example, we will take `three nodes` and run `etcd` + `patroni` clusters on them.
 We will also configure `haproxy` running on other nodes for `load balancing`.
@@ -20,6 +20,6 @@ I deployed with `ansilbe`.
 
 [Ansible example here](./examples/ansible)
 
-### Docker Compose
+#### Docker Compose
 
 [Docker Compose example here](./examples/docker)
